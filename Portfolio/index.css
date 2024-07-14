@@ -34,7 +34,12 @@ body {
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s ease-in-out;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
 
 .navbar:hover {
     background-color: rgb(148, 103, 191);
@@ -91,7 +96,11 @@ body {
     border: 3px solid black;
     margin: 50px auto 0;
     display: block;
+    margin-top: 150px;
+    
+    
 }
+
 
 .nav {
     display: flex;
@@ -115,6 +124,7 @@ body {
 #programming {
     height: 500px;
 }
+
 
 .about {
     margin-top: 13%;
